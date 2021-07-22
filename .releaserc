@@ -1,0 +1,9 @@
+{
+  "tagFormat": "${version}",
+  "branches": [
+    "official-release",
+    {"name": "master", "prerelease": true}
+  ],
+  "plugins": [
+  ]
+}
