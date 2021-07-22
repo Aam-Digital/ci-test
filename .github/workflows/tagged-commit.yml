@@ -26,6 +26,6 @@ jobs:
           file: ./build/Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: aamdigital/ndb-server:${{ env.TAG }}
-          cache-from: type=registry,ref=aamdigital/ndb-server:cache
-          cache-to: type=registry,ref=aamdigital/ndb-server:cache,mode=max
+          tags: aamdigital/ndb-testing:${{ env.TAG }}
+          cache-from: type=registry,ref=aamdigital/ndb-testing:cache
+          cache-to: type=registry,ref=aamdigital/ndb-testing:cache,mode=max
