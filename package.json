@@ -1,6 +1,6 @@
 {
   "name": "ndb-testing",
-  "version": "2.53.0",
+  "version": "1.0.0-master.2",
   "license": "GPL-3.0",
   "scripts": {
     "ng": "ng",
@@ -19,8 +19,7 @@
     "extract-i18n": "ng extract-i18n --output-path ./src/locale/ && xliffmerge --profile xliffmerge.json"
   },
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "jasmine-core": "~3.7.1",
     "jasmine-spec-reporter": "~6.0.0",
