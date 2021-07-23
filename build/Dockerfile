@@ -19,6 +19,8 @@ RUN sed -i "s/appVersion: \".*\"/appVersion: \"$APP_VERSION\"/g" src/environment
 RUN cat src/environments/environment.ts
 
 #RUN npm run build-localized
+RUN mkdir dist
+RUN mv src/environments/* dist/
 
 # When set to true, tests are run and coverage will be uploaded to CodeClimate
 ARG UPLOAD_COVERAGE=false
