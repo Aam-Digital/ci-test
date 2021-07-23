@@ -1,6 +1,6 @@
 {
   "name": "ndb-testing",
-  "version": "1.0.0-master.2",
+  "version": "1.0.0-master.3",
   "license": "GPL-3.0",
   "scripts": {
     "ng": "ng",
