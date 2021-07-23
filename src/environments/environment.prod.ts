@@ -25,7 +25,7 @@
  */
 export const environment = {
   production: true,
-  appVersion: "1.0.0-master.3", // replaced automatically by semantic-release
+  appVersion: "1.0.0-master.4", // replaced automatically by semantic-release
   repositoryId: "Aam-Digital/ndb-core",
   remoteLoggingDsn:
     "https://bd6aba79ca514d35bb06a4b4e0c2a21e@sentry.io/1242399",
